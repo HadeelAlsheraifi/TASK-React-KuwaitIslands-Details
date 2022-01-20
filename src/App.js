@@ -6,7 +6,7 @@ import islands from "./data/islands";
 import { useState } from "react";
 
 function App() {
-  const [Island, setIsland] = useState(islands[6]);
+  const [island, setIsland] = useState(islands[6]);
 
   return (
     <div>

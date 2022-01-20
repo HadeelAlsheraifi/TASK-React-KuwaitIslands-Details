@@ -26,7 +26,7 @@ export default function IslandForm({ island }) {
       <h3>Book a trip to {island.name} island</h3>
       <input onChange={changeVisitorName} placeholder="Type Full Name" />
       <input onChange={changeMobile} placeholder="Type Phone Number" />
-      <button className="book" onClick={{ bookPopUp }}>
+      <button className="book" onClick={bookPopUp}>
         Book for today!
       </button>
     </div>
